@@ -1,1 +1,0 @@
-(()=>{const e=document.querySelector("h1");e.textContent="Title",e.style.color="green"})();

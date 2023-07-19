@@ -1,0 +1,105 @@
+body {
+    margin: 0px;
+}
+
+:root {
+    --main-text-color: white;
+    --main-background-color: black;
+    --main-font: "Gill Sans";
+    font-family: var(--main-font);
+    color: var(--main-text-color);
+    background-color: var(--main-background-color);
+}
+
+/* Header Styling */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--main-background-color);
+    padding: 10px 15px;
+    box-shadow: 15px 10px 15px white;
+}
+
+.tabs {
+    display: flex;
+    gap: 50px;
+}
+
+.tabs > *{
+    font-weight: lighter;
+    font-size: 90%;
+}
+
+.tabs > *:hover{
+    cursor: pointer;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.restaurant-name {
+    font-weight: bold;
+}
+
+.header-burger {
+    width: 75px;
+    height: 100px;
+}
+
+/*Homepage styling*/
+
+.home-content {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-burger {
+    height: 500px;
+    width: 500px;
+}
+
+/*Menupage styling*/
+
+.menu-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+}
+
+.menu-burger {
+    height: 150px;
+    width: 150px;
+}
+
+/*Aboutpage styling*/
+
+.about-content{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-content > div{
+    margin-top: 60px;
+}
+
+.burger1 {
+    height: 200px;
+    width: 200px;
+}
+.burger2 {
+    height: 200px;
+    width: 200px;
+}
+.burger3 {
+    height: 200px;
+    width: 200px;
+}
